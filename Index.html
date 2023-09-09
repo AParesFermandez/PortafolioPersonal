@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
 </head>
+
 <body>
-    <head id="header">
+    <div id="header">
         <h1>Amanda Pares</h1>
-    </head>
+    </div>
     <div>
         <img src="img/img.jpg" width="140" height="145" alt="foto de perfil">
     </div>
@@ -18,46 +20,44 @@
         <a href="mailto:amandapares87@gmail.com">my email</a>
     </div>
     <div>
-    <h2>Technologies</h2>
-    <table border="1">
-        <tr>
-            <th>Front-End</th>
-            <th>Python</th>
-            <th>JavaScript</th>
-            <th>Database</th>
-            <th>Concepts</th>
-        </tr>
-        <tr>
-            <td>HTML5</td>
-            <td>Django</td>
-            <td>Express</td>
-            <td>MySQL</td>
-            <td>AJAX</td>
-        </tr>
-        <tr>
-            <td>CSS3</td>
-            <td>Flask</td>
-            <td>Mongoose</td>
-            <td>MongoDB</td>
-            <td>OPP</td>
-        </tr>
-        <tr>
-            <td>Bootstrap</td>
-            <td>Unittest</td>
-            <td>React</td>
-            <td> </td>
-            <td>REST</td>
-        </tr>
-    </table>
+        <h2>Technologies</h2>
+        <table border="1">
+            <tr>
+                <th>Front-End</th>
+                <th>Python</th>
+                <th>JavaScript</th>
+                <th>Database</th>
+                <th>Concepts</th>
+            </tr>
+            <tr>
+                <td>HTML5</td>
+                <td>Django</td>
+                <td>Express</td>
+                <td>MySQL</td>
+                <td>AJAX</td>
+            </tr>
+            <tr>
+                <td>CSS3</td>
+                <td>Flask</td>
+                <td>Mongoose</td>
+                <td>MongoDB</td>
+                <td>OPP</td>
+            </tr>
+            <tr>
+                <td>Bootstrap</td>
+                <td>Unittest</td>
+                <td>React</td>
+                <td> </td>
+                <td>REST</td>
+            </tr>
+        </table>
     </div>
     <div>
         <h3>Social Snakes</h3>
     </div>
     <div>
-        <label for="contacto">
-            <h3>Contact Me</h3>
-        </label>
-        <form action="/process" name="contacto">
+        <h3>Contact Me</h3>
+        <form action="/process" method="post">
             <div>
                 <label for="uname">Name: </label>
                 <input type="text" id="uname">
@@ -65,7 +65,7 @@
                 <input type="email" name="email" id="email">
             </div>
             <div>
-                <label for="textarea" >Message: </label>
+                <label for="textarea">Message: </label>
                 <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
             </div>
             <input type="submit" value="Send Message">
@@ -73,4 +73,5 @@
     </div>
 
 </body>
+
 </html>
